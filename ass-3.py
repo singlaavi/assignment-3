@@ -1,3 +1,4 @@
+#LIST
 #SOLUTION 1
 a=[]
 #no. of inputs are not specified so we take 2 inputs
@@ -47,10 +48,6 @@ A.sort()
 print(A)
 
 #SOLUTION 6
-
-
-
-#OPTIONAL QUESTION
 #lets count even & odd no. from the list used in solution 5
 even=0
 odd=0
@@ -61,3 +58,31 @@ for i in A:
         odd=odd+1
 print('Even count =',even)
 print('Odd count =',odd)
+
+#STRING SOLUTIONS
+#Q.1
+str=input('Enter a string:')
+str1=str.upper()
+print(str1)
+
+
+#Q.2
+str=input('Enter a string :')
+print(str.isdigit())
+
+#3
+str2='Hello World'
+print(str2.replace('World','Avi'))
+
+#TUPLE SOLUTION
+#Q.1
+Tuple=('r','e','v','e','r','s','e')
+rev_tuple=Tuple[::-1]
+print(rev_tuple)
+
+#Q.2
+Tuple=(123,4,56,700,8,943,1)
+print(max(Tuple))
+print(min(Tuple))
+
+
